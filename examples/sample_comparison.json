@@ -1,0 +1,23 @@
+[
+  {
+    "probe_id": "dsc_default",
+    "label": "Default Session",
+    "pre": "POSITIVE",
+    "post": "POSITIVE",
+    "change": "unchanged"
+  },
+  {
+    "probe_id": "dsc_extended",
+    "label": "Extended Session",
+    "pre": "NEGATIVE:SecurityAccessDenied",
+    "post": "POSITIVE",
+    "change": "opened_after_auth"
+  },
+  {
+    "probe_id": "security_seed_l1",
+    "label": "SecurityAccess seed request",
+    "pre": "NEGATIVE:SecurityAccessDenied",
+    "post": "POSITIVE",
+    "change": "opened_after_auth"
+  }
+]

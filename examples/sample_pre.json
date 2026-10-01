@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-01T09:10:05+00:00",
+  "phase": "pre",
+  "mode": "mock",
+  "observations": [
+    {
+      "probe_id": "dsc_default",
+      "label": "Default Session",
+      "service": "DiagnosticSessionControl (0x10)",
+      "outcome": "POSITIVE",
+      "detail": ""
+    },
+    {
+      "probe_id": "dsc_extended",
+      "label": "Extended Session",
+      "service": "DiagnosticSessionControl (0x10)",
+      "outcome": "NEGATIVE",
+      "detail": "SecurityAccessDenied"
+    },
+    {
+      "probe_id": "security_seed_l1",
+      "label": "SecurityAccess seed request",
+      "service": "SecurityAccess (0x27)",
+      "outcome": "NEGATIVE",
+      "detail": "SecurityAccessDenied"
+    }
+  ]
+}

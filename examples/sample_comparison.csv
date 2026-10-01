@@ -1,0 +1,4 @@
+probe_id,label,pre,post,change
+dsc_default,Default Session,POSITIVE,POSITIVE,unchanged
+dsc_extended,Extended Session,NEGATIVE:SecurityAccessDenied,POSITIVE,opened_after_auth
+security_seed_l1,SecurityAccess seed request,NEGATIVE:SecurityAccessDenied,POSITIVE,opened_after_auth
