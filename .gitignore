@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.DS_Store
+.pytest_cache/
+.coverage
+
+# Local reports and target-specific artifacts
+reports/*
+!reports/.gitkeep
+*.log
+*.pcap
+*.asc
+*.blf
+
+# Never commit credentials, keys, or certificates
+*.pem
+*.der
+*.crt
+*.cer
+*.key
+*.p12
+*.pfx
+
+# Local/private target configuration
+.env.*
+private/
+secrets/
